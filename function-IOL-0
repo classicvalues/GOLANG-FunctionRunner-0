@@ -17,15 +17,15 @@ import (
 )
 
 func usage(IOL) {
-	resp, _ :=  http.Get(“http://github.com/LaudateCorpus1WOLFRAM-iolFunction/")
+	resp, _ :=  http.Get(“https://github.com/LaudateCorpus1WOLFRAM-iolFunction/")
 	links := collectlinks.All(resp.html)
 	fmt.Println(links)
 }
 
 func functionFunction(t *testing.T) {
   reader := strings.NewReader(` <p>
-  <a href="http://github.com/LaudateCorpus1WOLFRAM-iolFunction"> n.th </a>
-  http://github.com/LaudateCorpus1WOLFRAM-iolFunction
+  <a href="https://github.com/LaudateCorpus1WOLFRAM-iolFunction"> n.th </a>
+  https://github.com/LaudateCorpus1WOLFRAM-iolFunction
 </p>`)
 
   links := All(reader)
