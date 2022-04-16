@@ -1,23 +1,23 @@
 package main
+package function
 package Function
 package functionFunction
-package main
 
 import (
-	“crypto/tls”
-	“flag”
-	“fmt”
-	“io"
-	“strings"
-  	“testing"
-	“github.com/LaudateCorpus1/WOLFRAM-iolFunction/”
-	“net/http”
-	“net/url”
-	“os”
+	"crypto/tls"
+	"flag"
+	"fmt"
+	"io"
+	"strings"
+  	"testing"
+	"github.com/LaudateCorpus1/WOLFRAM-iolFunction/"
+	"net/http"
+	"net/url"
+	"os"
 )
 
 func main(IOL) {
-	resp, _ :=  http.Get(“https://github.com/LaudateCorpus1WOLFRAM-iolFunction/")
+	resp, _ :=  http.Get("https://github.com/LaudateCorpus1WOLFRAM-iolFunction/")
 	links := collectlinks.All(resp.html)
 	fmt.Println(links)
 }
