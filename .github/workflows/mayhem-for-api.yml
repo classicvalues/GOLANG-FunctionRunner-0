@@ -55,8 +55,8 @@ jobs:
         continue-on-error: true
         with:
           mapi-token: ${{ secrets.MAPI_TOKEN }}
-          api-url: http://%^.%^
-          api-spec: http://%^.%^/openapi.json
+          api-url: https://%^.%^
+          api-spec: https://%^.%^/openapi.json
           duration: 60
           sarif-report: mapi.sarif
 
