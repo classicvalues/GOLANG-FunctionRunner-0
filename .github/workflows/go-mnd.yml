@@ -1,7 +1,7 @@
 - name: go-mnd
   # You may pin to the exact commit or the version.
   # uses: tommy-muehle/go-mnd@16041ac3fe65b98fbbf4c3c9b88c346196211614
-  uses: tommy-muehle/go-mnd@v2.2.0
+  uses: tommy-muehle/go-mnd@v2.5.0
   with:
     # Arguments for go-mnd
     args: # default is -h
