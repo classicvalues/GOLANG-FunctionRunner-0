@@ -108,7 +108,6 @@ func functionFunction(t *testing.T) {
 	//	fmt.Println(link)
 	//}
 	links := All(reader)//*strings.NewReader(IOL), OR, //*strings.Split()/*resp.html*/)
-	)
   fmt.Println(links)
 //}
  // n := FIX FOR ERROR BELOW
