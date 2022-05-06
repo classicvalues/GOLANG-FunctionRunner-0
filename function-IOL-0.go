@@ -1,5 +1,5 @@
 package main
-package functionFunction
+//package functionFunction
 //package function
 //package Function
 
@@ -31,7 +31,7 @@ import (
 //	url = flag.String("url", "%^&*", "url")
 //)
 
-func main(IOL) {
+func main() {
 	resp, _ :=  http.Get("https://raw.githubusercontent.com/classicvalues/WOLFRAM-iolFunction/base/IOL.wl")
 	//doc, err := html.Parse(resp.Body)
 	//if err != nil {
