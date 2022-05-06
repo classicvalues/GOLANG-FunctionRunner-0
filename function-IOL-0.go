@@ -12,6 +12,7 @@ import (
 	//)
 	"testing"
 	//)
+	"https://raw.githubusercontent.com/classicvalues/WOLFRAM-iolFunction/base/IOL.wl"
 	//"github.com/LaudateCorpus1/WOLFRAM-iolFunction/"
 	//"github.com/LaudateCorpus1/WOLFRAM-iolFunction/function"
 	//"github.com/LaudateCorpus1/WOLFRAM-iolFunction/functionFunction"
