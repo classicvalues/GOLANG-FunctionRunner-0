@@ -1,7 +1,7 @@
 package main
+package functionFunction
 //package function
 //package Function
-//package functionFunction
 
 import (
 	"fmt"
@@ -32,7 +32,7 @@ import (
 //)
 
 func main(IOL) {
-	resp, _ :=  http.Get("https://github.com/LaudateCorpus1WOLFRAM-iolFunction/")
+	resp, _ :=  http.Get("https://raw.githubusercontent.com/classicvalues/WOLFRAM-iolFunction/base/IOL.wl")
 	//doc, err := html.Parse(resp.Body)
 	//if err != nil {
 	//	fmt.Fprintf(os.Stderr, "findlinks1: %v\n", err)
@@ -96,8 +96,8 @@ func functionFunction(t *testing.T) {
 
 	//A paragraph of text</p>`) AFTER ('<p>   _______')
   reader := strings.NewReader(` <p> 
-  <a href="https://github.com/LaudateCorpus1WOLFRAM-iolFunction"> n.th </a>
-  https://github.com/LaudateCorpus1WOLFRAM-iolFunction
+  <a href="https://raw.githubusercontent.com/classicvalues/WOLFRAM-iolFunction/base/IOL.wl"> n.th </a>
+  https://raw.githubusercontent.com/classicvalues/WOLFRAM-iolFunction/base/IOL.wl
 </p>`)
 	//doc, err := html.Parse(reader)
 	//if err != nil {
