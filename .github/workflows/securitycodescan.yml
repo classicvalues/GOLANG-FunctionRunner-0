@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: nuget/setup-nuget@795d81930e6f583d6dbe984a5634efe5de9e54a7
-      - uses: microsoft/setup-msbuild@v1.1.3
+      - uses: microsoft/setup-msbuild@v1.3.1
       
       - name: Set up projects for analysis
         uses: security-code-scan/security-code-scan-add-action@95291dec3220baeb23648cf09e55e87dcda0d43b
