@@ -1,4 +1,0 @@
-- name: Golang Action
-  # You may pin to the exact commit or the version.
-  # uses: cedrickring/golang-action@382e630a8e1ec81acc05518fdd4498a7c2a68ba6
-  uses: cedrickring/golang-action@1.7.0
