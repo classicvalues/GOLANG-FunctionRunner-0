@@ -16,6 +16,6 @@ jobs:
         pr-message: 'Message that will be displayed on users first pull requests
 
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
